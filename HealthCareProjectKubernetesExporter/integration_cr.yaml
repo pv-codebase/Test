@@ -1,0 +1,11 @@
+---
+apiVersion: "integration.wso2.com/v1alpha1"
+kind: "Integration"
+metadata:
+  name: "HealthCare"
+spec:
+  replicas: 1
+  image: "docker.io/harshwinjit2022/wso2-mipoc:v1.0.0"
+  inboundPorts:
+  - 8290
+  - 8253

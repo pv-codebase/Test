@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/grandOak" name="GrandOakAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/doctors/{uri.var.doctorType}">
+        <inSequence>
+            <payloadFactory media-type="json">
+                <format>{&#xd;
+    "doctors": {&#xd;
+        "doctor": [&#xd;
+            {&#xd;
+                "name": "John Mathew",&#xd;
+                "time": "03:30 PM",&#xd;
+                "hospital": "Grand Oak"&#xd;
+            },&#xd;
+            {&#xd;
+                "name": "Allan Silvester",&#xd;
+                "time": "04:30 PM",&#xd;
+                "hospital": "Grand Oak"&#xd;
+            }&#xd;
+        ]&#xd;
+    }&#xd;
+}</format>
+                <args/>
+            </payloadFactory>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

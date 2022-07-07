@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/pineValley" name="PineValleyAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST" url-mapping="/doctors">
+        <inSequence>
+            <payloadFactory media-type="json">
+                <format>{&#xd;
+    "doctors": {&#xd;
+        "doctor": [&#xd;
+            {&#xd;
+                "name": "Alison Doodle",&#xd;
+                "time": "12:30 PM",&#xd;
+                "hospital": "Pine Valley"&#xd;
+            },&#xd;
+            {&#xd;
+                "name": "Micheal Henry",&#xd;
+                "time": "05:30 PM",&#xd;
+                "hospital": "Pine Valley"&#xd;
+            }&#xd;
+        ]&#xd;
+    }&#xd;
+}</format>
+                <args/>
+            </payloadFactory>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>
