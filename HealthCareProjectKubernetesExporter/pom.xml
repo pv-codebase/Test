@@ -135,7 +135,7 @@
             <configuration>
               <dockerfile.username>${dockerfile.username}</dockerfile.username>
               <dockerfile.password>${dockerfile.password}</dockerfile.password>
-              <dockerfile.repository>${dockerfile.image}</dockerfile.repository>
+              <dockerfile.repository>${dockerfile.repository}</dockerfile.repository>
               <dockerfile.tag>${dockerfile.tag}</dockerfile.tag>
             </configuration>
           </execution>
