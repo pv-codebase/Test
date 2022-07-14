@@ -15,7 +15,7 @@
     <keystore.name>wso2carbon.jks</keystore.name>
     <dockerfile.tag>v2.0.0</dockerfile.tag>
     <dockerfile.base.image>wso2/wso2mi:1.2.0</dockerfile.base.image>
-    <dockerfile.repository>harshwinjit2022/wso2-mipoc</dockerfile.repository>
+    <dockerfile.repository>dockerhub0110/wso2image</dockerfile.repository>
   </properties>
   <dependencies>
     <dependency>
