@@ -15,7 +15,7 @@
     <keystore.name>wso2carbon.jks</keystore.name>
     <dockerfile.tag>v2.0.0</dockerfile.tag>
     <dockerfile.base.image>wso2/wso2mi:1.2.0</dockerfile.base.image>
-    <dockerfile.repository>dockerhub0110/wso2image</dockerfile.repository>
+    <dockerfile.repository>dockerhub0110/wso2-image</dockerfile.repository>
   </properties>
   <dependencies>
     <dependency>
@@ -133,9 +133,9 @@
               <goal>push</goal>
             </goals>
             <configuration>
-              <dockerfile.username>${dockerfile.dockerhub0110}</dockerfile.username>
-              <dockerfile.password>${dockerfile.1D2e3e4pu}</dockerfile.password>
-              <dockerfile.repository>${dockerfile.wso2image}</dockerfile.repository>
+              <dockerfile.username>${dockerfile.username}</dockerfile.username>
+              <dockerfile.password>${dockerfile.password}</dockerfile.password>
+              <dockerfile.repository>${dockerfile.image}</dockerfile.repository>
               <dockerfile.tag>${dockerfile.tag}</dockerfile.tag>
             </configuration>
           </execution>
