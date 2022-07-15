@@ -13,6 +13,8 @@
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
     <keystore.alias>wso2carbon</keystore.alias>
     <keystore.name>wso2carbon.jks</keystore.name>
+    <dockerfile.username>dockerhub0110</dockerfile.username>
+    <dockerfile.password>54427ee3-3456-4db7-9166-afd4dad0fe84</docker.password>
     <dockerfile.tag>v2.0.0</dockerfile.tag>
     <dockerfile.base.image>wso2/wso2mi:1.2.0</dockerfile.base.image>
     <dockerfile.repository>dockerhub0110/wso2-image</dockerfile.repository>
@@ -133,8 +135,8 @@
               <goal>push</goal>
             </goals>
             <configuration>
-              <dockerfile.username>dockerhub0110</dockerfile.username>
-              <dockerfile.password>1D2e3e4pu</dockerfile.password>
+              <dockerfile.username>username</dockerfile.username>
+              <dockerfile.password>password</dockerfile.password>
               <dockerfile.repository>wso2-image</dockerfile.repository>
               <dockerfile.tag>${dockerfile.tag}</dockerfile.tag>
             </configuration>
