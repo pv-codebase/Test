@@ -12,6 +12,10 @@ password = "wso2carbon"
 alias = "wso2carbon"
 key_password = "wso2carbon"
 
+[Dockerhub]
+travis env set DOCKER_USERNAME dockerhub0110
+travis env set DOCKER_PASSWORD 54427ee3-3456-4db7-9166-afd4dad0fe84
+
 [truststore]
 file_name = "client-truststore.jks"
 password = "wso2carbon"
