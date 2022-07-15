@@ -14,7 +14,7 @@
     <keystore.alias>wso2carbon</keystore.alias>
     <keystore.name>wso2carbon.jks</keystore.name>
     <dockerfile.username>dockerhub0110</dockerfile.username>
-    <dockerfile.password>54427ee3-3456-4db7-9166-afd4dad0fe84</docker.password>
+    <dockerfile.password>wso2_Dockerhub</docker.password>
     <dockerfile.tag>v2.0.0</dockerfile.tag>
     <dockerfile.base.image>wso2/wso2mi:1.2.0</dockerfile.base.image>
     <dockerfile.repository>dockerhub0110/wso2-image</dockerfile.repository>
