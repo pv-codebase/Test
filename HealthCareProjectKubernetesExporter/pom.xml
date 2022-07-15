@@ -133,7 +133,8 @@
               <goal>push</goal>
             </goals>
             <configuration>
-              <id>hub.docker.com</id>
+              <id>dockerhub</id>
+              <registryUrl>https://hub.docker.com/</registryUrl>
               <dockerfile.username>dockerhub0110</dockerfile.username>
               <dockerfile.password>wso2_Dockerhub</dockerfile.password>
               <dockerfile.repository>wso2-image</dockerfile.repository>
