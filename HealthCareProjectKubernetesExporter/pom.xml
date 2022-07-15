@@ -133,10 +133,9 @@
               <goal>push</goal>
             </goals>
             <configuration>
-              <id>https://hub.docker.com</id>
-              <dockerfile.username>dockerhub0110</dockerfile.username>
-              <dockerfile.password>1D2e3e4pu</dockerfile.password>
-              <dockerfile.repository>wso2-image</dockerfile.repository>
+              <dockerfile.username>${dockerfile.username}</dockerfile.username>
+              <dockerfile.password>${dockerfile.password}</dockerfile.password>
+              <dockerfile.repository>>${dockerfile.repository}</dockerfile.repository>
               <dockerfile.tag>${dockerfile.tag}</dockerfile.tag>
             </configuration>
           </execution>
