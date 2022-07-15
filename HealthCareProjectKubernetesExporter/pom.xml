@@ -16,7 +16,7 @@
     <dockerfile.tag>v2.0.0</dockerfile.tag>
     <dockerfile.base.image>wso2/wso2mi:1.2.0</dockerfile.base.image>
     <dockerfile.username>dockerhub0110</dockerfile.username>
-    <dockerfile.password>wso2_Dockerhub</docker.password>
+    <dockerfile.password>wso2_Dockerhub</dockerfile.password>
     <dockerfile.repository>dockerhub0110/wso2-image</dockerfile.repository>
   </properties>
   <dependencies>
