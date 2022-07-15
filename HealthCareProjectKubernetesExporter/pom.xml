@@ -133,7 +133,7 @@
               <goal>push</goal>
             </goals>
             <configuration>
-              <id>docker.io</io>
+              <id>docker.io</id>
               <dockerfile.username>dockerhub0110</dockerfile.username>
               <dockerfile.password>wso2_Dockerhub</dockerfile.password>
               <dockerfile.repository>wso2-image</dockerfile.repository>
